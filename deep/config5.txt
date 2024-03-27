@@ -1,0 +1,11 @@
+Hyperparameters:
+num_attention_heads: 8
+embedding_size: 120
+nhidden: 91
+nlayers: 6
+dropout: 0.1824864622740542
+criterion: CrossEntropyLoss()
+learning_rate: 0.007332273107559816
+num_epochs: 3
+batch_size: 32
+ntoken: 37585
