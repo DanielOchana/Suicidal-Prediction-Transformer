@@ -1,0 +1,13 @@
+Hyperparameters:
+num_attention_heads= 8
+embedding_size= 120
+nhidden= 70
+nlayers= 4
+dropout= 0.11351901238528893
+criterion= BCEWithLogitsLoss()
+learning_rate= 0.003
+num_epochs= 3
+batch_size= 32
+ntoken= 37585
+
+valid - 69.8
