@@ -1,0 +1,15 @@
+Hyperparameters:
+num_attention_heads= 8
+embedding_size= 144
+nhidden= 70
+nlayers= 4
+dropout= 0.10736243002159422
+criterion= BCEWithLogitsLoss()
+learning_rate= 0.003
+num_epochs= 3
+batch_size= 16
+ntoken= 37585
+
+
+# GELU
+# norm first 
