@@ -1,0 +1,15 @@
+Hyperparameters:
+num_attention_heads= 8
+embedding_size= 120
+nhidden= 70
+nlayers= 4
+dropout= 0.108403650022243
+criterion= BCEWithLogitsLoss()
+learning_rate= 0.005
+num_epochs= 4
+batch_size= 32
+ntoken= 37585
+
+GELU
+Norm first
+manual scheduler after 1 epoch and after 3 epochs 
