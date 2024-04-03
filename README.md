@@ -63,9 +63,9 @@ A provided cell for using the models is provided in the notebook file.
 
 ## Reference
 
-* [1] Document of the spacy model used for preprocces the data - https://spacy.io/models/en 
-* [2] Previous work on the dataset -  https://www.kaggle.com/code/bryamblasrimac/suicidal-prediction-multiplemodels-accuracy-73/notebook#5.-Preprocessing 
-* [3] Dataset - https://www.kaggle.com/datasets/subhranilpaul/suicidal-mental-health-review
+[1] Document of the spacy model used for preprocces the data - https://spacy.io/models/en 
+[2] Previous work on the dataset -  https://www.kaggle.com/code/bryamblasrimac/suicidal-prediction-multiplemodels-accuracy-73/notebook#5.-Preprocessing 
+[3] Dataset - https://www.kaggle.com/datasets/subhranilpaul/suicidal-mental-health-review
 
 
 ## License ?
