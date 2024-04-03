@@ -10,6 +10,7 @@ The project uses some of the preprocces implemented in :  https://www.kaggle.com
 
 Data set downloaded from : https://www.kaggle.com/datasets/subhranilpaul/suicidal-mental-health-review
 
+![image](https://github.com/DanielOchana/Suicidal-Prediction-Transformer/assets/102607314/f7bd433e-4186-40c1-866c-c8bbafa7cccf)
 
 ## Data Preprocessing
 
