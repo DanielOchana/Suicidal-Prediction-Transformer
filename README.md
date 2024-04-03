@@ -24,8 +24,9 @@ The data preprocessing steps include:
 6. **Padding**: All text sequences are padded to have the same length. This is necessary because the input to the model needs to be of the same size.
 
 7. **Encoding**: The tokens are converted into numerical values or indices. This is done because the model cannot process raw text and works with numerical data.
+8. **Labels mapping to unique IDs** : mapping the labels into o and 1 values 
 
-### Pre Processed Data 
+### Pre-Processed Data 
 ![image](https://github.com/DanielOchana/Suicidal-Prediction-Transformer/assets/102607314/f7bd433e-4186-40c1-866c-c8bbafa7cccf)
 
 
