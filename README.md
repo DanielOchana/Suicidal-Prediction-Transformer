@@ -10,7 +10,6 @@ The project uses some of the preprocces implemented in :  https://www.kaggle.com
 
 Data set downloaded from : https://www.kaggle.com/datasets/subhranilpaul/suicidal-mental-health-review
 
-![image](https://github.com/DanielOchana/Suicidal-Prediction-Transformer/assets/102607314/f7bd433e-4186-40c1-866c-c8bbafa7cccf)
 
 ## Data Preprocessing
 
@@ -26,6 +25,8 @@ The data preprocessing steps include:
 
 7. **Encoding**: The tokens are converted into numerical values or indices. This is done because the model cannot process raw text and works with numerical data.
 
+### Pre Proccessed Data 
+![image](https://github.com/DanielOchana/Suicidal-Prediction-Transformer/assets/102607314/f7bd433e-4186-40c1-866c-c8bbafa7cccf)
 
 
 ## Model
