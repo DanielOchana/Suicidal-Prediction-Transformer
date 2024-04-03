@@ -14,13 +14,16 @@ Data set downloaded from : https://www.kaggle.com/datasets/subhranilpaul/suicida
 ## Data Preprocessing
 
 The data preprocessing steps include:
-1. removing non-alphabetic characters, converting to lowercase, removing stopwords and punctuation, and lemmatizing the remaining tokens
+1. **removing non-alphabetic**: characters, converting to lowercase, removing stopwords and punctuation, and lemmatizing the remaining tokens
 
-2. **Tokenization**: The text is split into individual words or tokens. This is a crucial step as the model learns from these tokens.
+2. **Converting to lowercase**
+3. **Removing stopwords and punctuation**: Stopwords are common words that do not contain important meaning and are often removed from texts.
+4. **Tokenization**: The text is split into individual words.
+5. **Lemmatizing the remaining tokens**: Lemmatization is the process of reducing inflected (or sometimes derived) words to their word stem, base or root form.
 
-3. **Padding**: All text sequences are padded to have the same length. This is necessary because the input to the model needs to be of the same size.
+6. **Padding**: All text sequences are padded to have the same length. This is necessary because the input to the model needs to be of the same size.
 
-4. **Encoding**: The tokens are converted into numerical values or indices. This is done because the model cannot process raw text and works with numerical data.
+7. **Encoding**: The tokens are converted into numerical values or indices. This is done because the model cannot process raw text and works with numerical data.
 
 
 
