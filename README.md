@@ -25,7 +25,7 @@ The data preprocessing steps include:
 
 7. **Encoding**: The tokens are converted into numerical values or indices. This is done because the model cannot process raw text and works with numerical data.
 
-### Pre Proccessed Data 
+### Pre Processed Data 
 ![image](https://github.com/DanielOchana/Suicidal-Prediction-Transformer/assets/102607314/f7bd433e-4186-40c1-866c-c8bbafa7cccf)
 
 
@@ -41,7 +41,7 @@ The model is trained using the Adam optimizer and the Binary Cross Entropy with 
 ### Env
 The repository provides an environment.yml file.
 This file contains a list of all the packages needed for using the code. 
-In order to create a Conda environment and install all packages run:
+To create a Conda environment and install all packages run:
 
 ``` bash 
 conda env create -f environment.yml
@@ -50,10 +50,10 @@ conda env create -f environment.yml
 ### Train
 To use this project, you need to have Python and PyTorch installed. You can then run the `deep_learning_project.ipynb` notebook to train and evaluate the model.
 
-After preprocces once, the code saves the preproccesed data for later use. 
-Just skip the preprocces section and load the saved preproccesed data. 
+After preprocessing once, the code saves the preprocessed data for later use. 
+Just skip the preprocess section and load the saved preprocessed data. 
 
-The repository provides a preproccesed data file. 
+The repository provides a csv preprocessed data file. 
 
 ### Evaluate
 
