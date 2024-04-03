@@ -10,6 +10,6 @@ num_epochs= 4
 batch_size= 32
 ntoken= 37585
 
-GELU
+RELU
 Norm first
 manual scheduler after 2 epochs 
