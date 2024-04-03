@@ -39,7 +39,7 @@ This file contains a list of all the packages needed for using the code.
 In order to create a Conda environment and install all packages run:
 
 ``` bash 
-conda env create -f environment.yml"
+conda env create -f environment.yml
 ```
 
 ### Train
