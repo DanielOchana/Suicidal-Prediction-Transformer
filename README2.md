@@ -33,7 +33,7 @@ The embedding layer converts the input indices into dense vectors of fixed size.
 The model is trained using the Adam optimizer and the Binary Cross Entropy with Logits loss function.
 
 ## Usage 
-# Train
+### Train
 To use this project, you need to have Python and PyTorch installed. You can then run the `deep_learning_project.ipynb` notebook to train and evaluate the model.
 
 After preprocces once, the code saves the preproccesed data for later use. 
@@ -41,7 +41,7 @@ Just skip the preprocces section and load the saved preproccesed data.
 
 The repository provides a preproccesed data file. 
 
-# Evaluate
+### Evaluate
 
 10 pretrained models are provided, ("model_checkpoint_{i}.pth").
 Each trained model have a corresponding config file, with its hyperparams and changed in the architecture. 
@@ -52,7 +52,7 @@ A provided cell for using the models is provided in the notebook file.
 * config: config files with the hyperparams used in each model. 
 * saved_models: all checkpoint of the trained models. 
 
-# Reference
+## Reference
 
 * https://spacy.io/models/en 
 * https://www.kaggle.com/code/bryamblasrimac/suicidal-prediction-multiplemodels-accuracy-73/notebook#5.-Preprocessing 
