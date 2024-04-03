@@ -47,15 +47,26 @@ To create a Conda environment and install all packages run:
 ``` bash 
 conda env create -f environment.yml
 ```
+#### Main Packages Versions
+torch==2.2.2 
+
+pandas==2.0.3
+
+numpy==1.24.4
+
+transformers==4.38.2
+
+spacy==3.7.4
 
 ### Train
-To use this project, you need to have Python and PyTorch installed. You can then run the `deep_learning_project.ipynb` notebook to train and evaluate the model.
+To use this project, you need to have all the packages above installed. You can then run the `Suicidal-Prediction-From-Scratch.ipynb` notebook to train and evaluate the model.
 
 After preprocessing once, the code saves the preprocessed data for later use. 
 Just skip the preprocess section and load the saved preprocessed data. 
 
 The repository provides a csv preprocessed data file. 
 
+Training is done completely in the training cell 
 ### Evaluate
 
 10 pretrained models are provided, ("model_checkpoint_{i}.pth").
