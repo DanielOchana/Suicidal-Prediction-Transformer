@@ -2,13 +2,13 @@
 
 This repository contains code for a Suicidal Prediction Transformer, which is a Transformer-based model trained from scratch, to predict suicidal tendencies based on textual data.
 
+Project site can be found here:
 
-## Preprocessing
+Project video can be found here: 
 
-Before using the model, it is important to preprocess the data. The preprocessing steps include:
-- Tokenization: Splitting the text into individual words or subwords.
-- Padding: Ensuring that all input sequences have the same length by adding padding tokens.
-- Encoding: Converting the text into numerical representations that can be understood by the model.
+The project uses some of the preprocces implemented in :  https://www.kaggle.com/code/bryamblasrimac/suicidal-prediction-multiplemodels-accuracy-73/notebook#5.-Preprocessing 
+
+Data set downloaded from : https://www.kaggle.com/datasets/subhranilpaul/suicidal-mental-health-review
 
 
 ## Data Preprocessing
@@ -32,8 +32,8 @@ The embedding layer converts the input indices into dense vectors of fixed size.
 
 The model is trained using the Adam optimizer and the Binary Cross Entropy with Logits loss function.
 
-## Usage
-
+## Usage 
+# Train
 To use this project, you need to have Python and PyTorch installed. You can then run the `deep_learning_project.ipynb` notebook to train and evaluate the model.
 
 After preprocces once, the code saves the preproccesed data for later use. 
@@ -41,21 +41,25 @@ Just skip the preprocces section and load the saved preproccesed data.
 
 The repository provides a preproccesed data file. 
 
-
-## Evaluate
+# Evaluate
 
 10 pretrained models are provided, ("model_checkpoint_{i}.pth").
+Each trained model have a corresponding config file, with its hyperparams and changed in the architecture. 
+
+A provided cell for using the models is provided in the notebook file. 
+
+## Folders
+* config: config files with the hyperparams used in each model. 
+* saved_models: all checkpoint of the trained models. 
+
+# Reference
+
+* https://spacy.io/models/en 
+* https://www.kaggle.com/code/bryamblasrimac/suicidal-prediction-multiplemodels-accuracy-73/notebook#5.-Preprocessing 
+* https://www.kaggle.com/datasets/subhranilpaul/suicidal-mental-health-review
 
 
+## License ?
 
-## License
+This project is open source and available under the [License](LICENSE).
 
-This project is open source and available under the [MIT License](LICENSE).
-
-
-
-
-
-## Classes
-
-- `SuicidalPredictionTransformer`: The main class that implements the Suicidal Prediction Transformer model. It takes in text data as input and outputs predictions for suicidal tendencies.
