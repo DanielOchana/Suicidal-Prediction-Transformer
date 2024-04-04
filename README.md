@@ -16,7 +16,7 @@ Data set downloaded from : https://www.kaggle.com/datasets/subhranilpaul/suicida
 #### Test accuracy - 71.55%
 ![image](https://github.com/DanielOchana/Suicidal-Prediction-Transformer/assets/102607314/3e308c04-d4ea-4dce-b3ca-e51443278e27)
 
-
+### GPT2 : 
 
 ## Data Preprocessing
 
