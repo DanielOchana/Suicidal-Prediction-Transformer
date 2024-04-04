@@ -83,8 +83,10 @@ Each trained model have a corresponding config file (`config{i}.txt` ), with its
 A dedicated notebook `From-Scratch-Model-Evaluate.ipynb` is provided, that loads the saved model, and evaluates it on each of the datasets. 
 
 ## Folders
+* data: original data and preprocessed data CSV files
+* code: all provided notebooks. 
 * config: config files with the hyperparams used in each model. 
-* saved_models: all checkpoint of the trained models. 
+* models: all checkpoint of the trained models. 
 
 ## Reference
 
