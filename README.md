@@ -58,6 +58,12 @@ transformers==4.38.2
 
 spacy==3.7.4
 
+### Preprocess Data
+A Data-Pre-Process notebook is provided, that implements all preprocess steps mentioned above. 
+The code also saves a preprocess file for later use, so if you have one already ( or just want to use the provided one, you can skip this step)
+
+The notebook is sequential, so just run all cells in order, and make sure you get data table with 5 columns at the end: 
+text, label, text_prep, token_id, label_prep. 
 ### Train
 To use this project, you need to have all the packages above installed. You can then run the `Suicidal-Prediction-From-Scratch.ipynb` notebook to train and evaluate the model.
 
