@@ -10,7 +10,11 @@ The project uses some of the preprocces implemented in :  https://www.kaggle.com
 
 Data set downloaded from : https://www.kaggle.com/datasets/subhranilpaul/suicidal-mental-health-review
 
-## Results: 
+## Results 
+### From scratch: 
+#### Training accuracy - 77% 
+#### Test accuracy - 71.55%
+![image](https://github.com/DanielOchana/Suicidal-Prediction-Transformer/assets/102607314/3e308c04-d4ea-4dce-b3ca-e51443278e27)
 
 
 
