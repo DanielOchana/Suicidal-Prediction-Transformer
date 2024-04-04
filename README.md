@@ -60,25 +60,24 @@ spacy==3.7.4
 
 ### Preprocess Data
 A Data-Pre-Process notebook is provided, that implements all preprocess steps mentioned above. 
-The code also saves a preprocess file for later use, so if you have one already ( or just want to use the provided one, you can skip this step)
+The code also saves a preprocess file for later use, so if you have one already (or just want to use the provided csv preprocessed data file, you can skip this step)
 
-The notebook is sequential, so just run all cells in order, and make sure you get data table with 5 columns at the end: 
-text, label, text_prep, token_id, label_prep. 
+The notebook is sequential, so just run all cells in order, and make sure you get a data table with 5 columns at the end: 
+text, label, text_prep, token_id, label_prep.
+
 ### Train
 To use this project, you need to have all the packages above installed. You can then run the `Suicidal-Prediction-From-Scratch.ipynb` notebook to train and evaluate the model.
 
-After preprocessing once, the code saves the preprocessed data for later use. 
-Just skip the preprocess section and load the saved preprocessed data. 
+The code loads the preprocessed file, splits it into train-valid-test sets, and randomizes the hyperparameters. 
 
-The repository provides a csv preprocessed data file. 
+Finally, it trains the model, plots the results, and print the accuracy on each of the dataset if needed. 
 
-Training is done completely in the training cell 
 ### Evaluate
 
-10 pretrained models are provided, ("model_checkpoint_{i}.pth").
-Each trained model have a corresponding config file, with its hyperparams and changed in the architecture. 
+10 pretrained models are provided, ("model_checkpoint{i}.pth").
+Each trained model have a corresponding config file ("config{i}.txt ), with its hyperparams and changes in the architecture. 
 
-A provided cell for using the models is provided in the notebook file. 
+A dedicated notebook "From-Scratch-Model-Evaluate.ipynb" is provided, that loads the saved model, and evaluates it on each of the datasets. 
 
 ## Folders
 * config: config files with the hyperparams used in each model. 
