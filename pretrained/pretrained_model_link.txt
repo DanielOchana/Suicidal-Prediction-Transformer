@@ -1,0 +1,7 @@
+Due to size limitations in Github, we were not able to upload our saved pretrained models. Provided below is a link to a 
+googledrive folder that contains:
+1. One such model
+2. The hyperparameters used to train it.
+3. The specific data-train split used to train and evaluate it
+
+https://drive.google.com/file/d/1jBOdCEMWiPWOAHqX3kyR_XcTX9VRQ5Z2/view?usp=sharing
