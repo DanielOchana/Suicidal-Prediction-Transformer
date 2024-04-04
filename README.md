@@ -10,6 +10,9 @@ The project uses some of the preprocces implemented in :  https://www.kaggle.com
 
 Data set downloaded from : https://www.kaggle.com/datasets/subhranilpaul/suicidal-mental-health-review
 
+## Results: 
+
+
 
 ## Data Preprocessing
 
@@ -59,7 +62,7 @@ transformers==4.38.2
 spacy==3.7.4
 
 ### Preprocess Data
-A Data-Pre-Process notebook is provided, that implements all preprocess steps mentioned above. 
+A `Data-Pre-Process.ipynb` notebook is provided, that implements all preprocess steps mentioned above. 
 The code also saves a preprocess file for later use, so if you have one already (or just want to use the provided csv preprocessed data file, you can skip this step)
 
 The notebook is sequential, so just run all cells in order, and make sure you get a data table with 5 columns at the end: 
@@ -74,10 +77,10 @@ Finally, it trains the model, plots the results, and print the accuracy on each 
 
 ### Evaluate
 
-10 pretrained models are provided, ("model_checkpoint{i}.pth").
-Each trained model have a corresponding config file ("config{i}.txt ), with its hyperparams and changes in the architecture. 
+10 pretrained models are provided, (`model_checkpoint{i}.pth`).
+Each trained model have a corresponding config file (`config{i}.txt` ), with its hyperparams and changes in the architecture. 
 
-A dedicated notebook "From-Scratch-Model-Evaluate.ipynb" is provided, that loads the saved model, and evaluates it on each of the datasets. 
+A dedicated notebook `From-Scratch-Model-Evaluate.ipynb` is provided, that loads the saved model, and evaluates it on each of the datasets. 
 
 ## Folders
 * config: config files with the hyperparams used in each model. 
@@ -86,7 +89,8 @@ A dedicated notebook "From-Scratch-Model-Evaluate.ipynb" is provided, that loads
 ## Reference
 
 [1] Document of the spacy model used for preprocces the data - https://spacy.io/models/en  
-[2] Previous work on the dataset -  https://www.kaggle.com/code/bryamblasrimac/suicidal-prediction-multiplemodels-accuracy-73/notebook#5.-Preprocessing 
+[2] Previous work on the dataset -  https://www.kaggle.com/code/bryamblasrimac/suicidal-prediction-multiplemodels-accuracy-73/notebook#5.-Preprocessing
+
 [3] Dataset - https://www.kaggle.com/datasets/subhranilpaul/suicidal-mental-health-review
 
 
