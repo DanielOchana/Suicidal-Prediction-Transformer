@@ -17,12 +17,16 @@ Data set downloaded from : https://www.kaggle.com/datasets/subhranilpaul/suicida
 ![image](https://github.com/DanielOchana/Suicidal-Prediction-Transformer/assets/102607314/3e308c04-d4ea-4dce-b3ca-e51443278e27)
 
 ### GPT2 : 
-#### Training accuracy - 77% 
-#### Test accuracy - 71.55%
+#### Training accuracy - 79% 
+#### Test accuracy - 71.8%
 
-## Data Preprocessing
+### ChatGPT3.5
+#### Test accuracy - 75%
 
-The data preprocessing steps include:
+## Transformer-based model trained from scratch
+### Data Preprocessing
+
+We preprocess the data using the following steps:
 1. **removing non-alphabetic**: characters, converting to lowercase, removing stopwords and punctuation, and lemmatizing the remaining tokens
 
 2. **Converting to lowercase**
@@ -39,7 +43,7 @@ The data preprocessing steps include:
 ![image](https://github.com/DanielOchana/Suicidal-Prediction-Transformer/assets/102607314/f7bd433e-4186-40c1-866c-c8bbafa7cccf)
 
 
-## Model
+### Model
 
 The model used in this project is a Transformer-based text classifier. It consists of an embedding layer, a positional encoding layer, a Transformer encoder, and a linear layer for classification.
 
@@ -47,8 +51,8 @@ The embedding layer converts the input indices into dense vectors of fixed size.
 
 The model is trained using the Adam optimizer and the Binary Cross Entropy with Logits loss function.
 
-## Usage 
-### Env
+### Usage 
+#### Env
 The repository provides an environment.yml file.
 This file contains a list of all the packages needed for using the code. 
 To create a Conda environment and install all packages run:
@@ -67,28 +71,29 @@ transformers==4.38.2
 
 spacy==3.7.4
 
-### Preprocess Data
+#### Preprocess Data
 A `Data-Pre-Process.ipynb` notebook is provided, that implements all preprocess steps mentioned above. 
 The code also saves a preprocess file for later use, so if you have one already (or just want to use the provided csv preprocessed data file, you can skip this step)
 
 The notebook is sequential, so just run all cells in order, and make sure you get a data table with 5 columns at the end: 
 text, label, text_prep, token_id, label_prep.
 
-### Train
+#### Train
 To use this project, you need to have all the packages above installed. You can then run the `Suicidal-Prediction-From-Scratch.ipynb` notebook to train and evaluate the model.
 
 The code loads the preprocessed file, splits it into train-valid-test sets, and randomizes the hyperparameters. 
 
 Finally, it trains the model, plots the results, and print the accuracy on each of the dataset if needed. 
 
-### Evaluate
+#### Evaluate
 
 10 pretrained models are provided, (`model_checkpoint{i}.pth`).
 Each trained model have a corresponding config file (`config{i}.txt` ), with its hyperparams and changes in the architecture. 
 
 A dedicated notebook `From-Scratch-Model-Evaluate.ipynb` is provided, that loads the saved model, and evaluates it on each of the datasets. 
 
-## Folders
+### Folders
+Under "from scratch":
 * data: original data and preprocessed data CSV files
 * code: all provided notebooks. 
 * config: config files with the hyperparams used in each model. 
