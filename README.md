@@ -120,5 +120,6 @@ Using the standard chat interface (not using the API), we first explained to Cha
 
 ## License
 
-This project is open source and available under the [License](LICENSE).
+This project is licensed under the MIT License. For more details, see the [MIT License documentation](https://opensource.org/licenses/MIT).
+
 
