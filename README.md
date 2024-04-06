@@ -4,7 +4,7 @@ This repository contains code for a Suicidal Prediction Transformer, which is a 
 
 This work was done as part of the course 046211 Deep Learning at the Technion, course's projects site can be found here: https://taldatech.github.io/ee046211-deep-learning/.
 
-Project video can be found here: 
+Project video can be found here: https://youtu.be/YIyJAnWMfKE
 
 The project uses some of the preprocces implemented in :  https://www.kaggle.com/code/bryamblasrimac/suicidal-prediction-multiplemodels-accuracy-73/notebook#5.-Preprocessing 
 
@@ -22,7 +22,8 @@ Data set downloaded from : https://www.kaggle.com/datasets/subhranilpaul/suicida
 
 ### ChatGPT3.5
 #### Test accuracy - 75%
-![image](https://github.com/DanielOchana/Suicidal-Prediction-Transformer/assets/102607314/3e308c04-d4ea-4dce-b3ca-e51443278e27)
+![image](https://github.com/DanielOchana/Suicidal-Prediction-Transformer/assets/95130767/2c25af0a-f496-42cf-b66f-50de9c00606f)
+
 
 
 ## Transformer-based model trained from scratch
@@ -114,7 +115,8 @@ Using the standard chat interface (not using the API), we first explained to Cha
 ## Reference
 
 [1] Document of the spacy model used for preprocces the data - https://spacy.io/models/en  
-[2] Previous work on the dataset -  https://www.kaggle.com/code/bryamblasrimac/suicidal-prediction-multiplemodels-accuracy-73/notebook#5.-Preprocessing
+[2] Previous work on the dataset, including preprocessing -  https://www.kaggle.com/code/bryamblasrimac/suicidal-prediction-multiplemodels-accuracy-73/notebook#5.
+
 [3] Dataset - https://www.kaggle.com/datasets/subhranilpaul/suicidal-mental-health-review
 
 
