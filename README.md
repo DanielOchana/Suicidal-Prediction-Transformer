@@ -39,11 +39,11 @@ We preprocess the data using the following steps:
 7. **Encoding**: The tokens are converted into numerical values or indices. This is done because the model cannot process raw text and works with numerical data.
 8. **Labels mapping to unique IDs** : mapping the labels into o and 1 values 
 
-### Pre-Processed Data 
+After preprocessing the data would look like this:
 ![image](https://github.com/DanielOchana/Suicidal-Prediction-Transformer/assets/102607314/f7bd433e-4186-40c1-866c-c8bbafa7cccf)
 
 
-### Model
+### Model and training
 
 The model used in this project is a Transformer-based text classifier. It consists of an embedding layer, a positional encoding layer, a Transformer encoder, and a linear layer for classification.
 
@@ -92,12 +92,18 @@ Each trained model have a corresponding config file (`config{i}.txt` ), with its
 
 A dedicated notebook `From-Scratch-Model-Evaluate.ipynb` is provided, that loads the saved model, and evaluates it on each of the datasets. 
 
-### Folders
-Under "from scratch":
-* data: original data and preprocessed data CSV files
-* code: all provided notebooks. 
-* config: config files with the hyperparams used in each model. 
-* models: all checkpoint of the trained models. 
+## Pretrained model
+
+## ChatGPT baseline
+
+## Folders
+* Under "from scratch" is all the relevant code and data for the mdoel we trained from scratch:
+** data: original data and preprocessed data CSV files
+** code: all provided notebooks. 
+** config: config files with the hyperparams used in each model. 
+** models: all checkpoint of the trained models. 
+* "Pretrained" folder contains the notebook we used to finetune the pretrained model, and a file containing links to a checkpoint of a finetuned model.
+* "chat GPT" folder contains a session with ChatGPT3.5 in which it attempts to classify instances from the same dataset, a table documenting it's answers and a short script analysing it's responses. 
 
 ## Reference
 
