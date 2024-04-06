@@ -1,8 +1,8 @@
 # Suicidal Prediction Transformer
 
-This repository contains code for a Suicidal Prediction Transformer, which is a Transformer-based model trained from scratch, to predict suicidal tendencies based on textual data.
+This repository contains code for a Suicidal Prediction Transformer, which is a Transformer-based model trained from scratch, to predict suicidal tendencies based on textual data. Additionaly, this repository contains code for a pretrained transformer model we finetuned and compared our former model against. Finally, the repository contains records of a session with chatGPT3.5 in which it attempts to predict suicidal tendencies, and a short code analyzing the results of this session.
 
-Project site can be found here:
+This work was done as part of the course 046211 Deep Learning at the Technion, course's projects site can be found here: https://taldatech.github.io/ee046211-deep-learning/.
 
 Project video can be found here: 
 
@@ -17,6 +17,8 @@ Data set downloaded from : https://www.kaggle.com/datasets/subhranilpaul/suicida
 ![image](https://github.com/DanielOchana/Suicidal-Prediction-Transformer/assets/102607314/3e308c04-d4ea-4dce-b3ca-e51443278e27)
 
 ### GPT2 : 
+#### Training accuracy - 77% 
+#### Test accuracy - 71.55%
 
 ## Data Preprocessing
 
